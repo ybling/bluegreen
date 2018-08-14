@@ -6,8 +6,10 @@ if ( $deployment == 'blue') {
   $color = 'blue';
 } elseif ($deployment == 'green')  {
   $color = 'green';
-} else {
-  $color = 'blue';
+} elseif {
+  $color = 'red';
+}else{
+  $color = 'blue'
 }
 
 $data = [ 'color' => $deployment ];
